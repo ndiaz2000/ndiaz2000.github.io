@@ -5,6 +5,20 @@
 <title>Jason Todd</title>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="WebSystemsProject.css" />
+<script>
+    function toggleCSS() {
+
+        var currentCSS = document.getElementById('csslink');
+
+        // Change the value of href attribute 
+        // to change the css sheet.
+        if (currentCSS.getAttribute('href') == 'alternate.css') {
+            currentCSS.setAttribute('href', 'WebSystemsProject.css');
+        } else {
+            currentCSS.setAttribute('href', 'alternate.css');
+        }
+    }
+</script>
 </head>
 <body>
     <header id="HomepageSymbol">
@@ -12,6 +26,7 @@
     </header>
 
     <nav id="robins">
+         <button onclick="toggleCSS()">SwitchStyle</button>
         <h1> The Robins</h1>
     <ul>
         <li><a href="Dick Grayson.html" target= "_blank">DICK GRAYSON</a></li>
