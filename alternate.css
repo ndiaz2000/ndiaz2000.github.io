@@ -221,6 +221,15 @@ nav li{
 img[src$="images/RobinOG.jpg"]{
     width: 100%
 }
+img[src$="images/Robin_JTv4.jpg"]{
+    width: 100%
+}
+img[src$="images/Robin_TD.jpg"]{
+    width: 100%
+}
+img[src$="images/Robin_DW.jpg"]{
+    width: 100%
+}
 #secondary a
 {
     color: #ffffff;
