@@ -66,8 +66,8 @@ img[src$="images/Carrie_kelley.jpg"] {
     width: 300px;
     height: auto;
     position: absolute;
-    top: 1610px;
-    right: 260px;
+    top: 1855px;
+    right: 230px;
 }
 
 nav {
@@ -119,7 +119,7 @@ nav li{
 .other_Robins div h3 {
     text-align: left;
     position: absolute;
-    top: 2210px;
+    top: 2250px;
     right: 275px;
     text-align: left;
     text-decoration: none;
@@ -135,7 +135,7 @@ nav li{
 
 .other_Robins span{
     position: absolute;
-    top: 2370px;
+    top: 2410px;
     right: 5px;
     text-align: left;
     text-shadow: 4px 4px #000000;
